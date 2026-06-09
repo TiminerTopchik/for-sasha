@@ -489,7 +489,7 @@
     </div>
 
     <script>
-        const TELEGRAM_TOKEN = "8701317784:AAEWh8bNVqs-PUuyzNIwbjpB3byWd1Y4ClE";
+        const TELEGRAM_TOKEN = "";
         const TELEGRAM_CHAT_ID = "5633676853";
 
         const btn = document.getElementById('compliment-btn');
@@ -586,7 +586,6 @@
         }, 5000);
 
         btn.addEventListener('click', () => {
-            // Дублируем запуск музыки при клике на кнопку комплимента на случай, если автоплей заблокирован
             if (audio.paused) { startMusic(); }
             
             display.style.opacity = 0;
